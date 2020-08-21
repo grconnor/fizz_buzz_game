@@ -7,10 +7,10 @@ describe 'fizz_buzz' do
 
     end
     it "returns 'Fizz' if number can be divided by 3" do
-        expect(fizz_buzz(3)).to eq 1
+        expect(fizz_buzz(3)).to eq 'fizz'
     end
     it "returns 'Buzz' if number can be divided by 5" do
-        expect(fizz_buzz(5)).to eq 1
+        expect(fizz_buzz(5)).to eq 'buzz'
     end
     it "returns 'FizzBuzz' if number can be divided by 15" do
         expect(fizz_buzz(15)).to eq 'FizzBuzz'
